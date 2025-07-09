@@ -119,11 +119,11 @@
                 style="border-radius: 20px; background: linear-gradient(0deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), radial-gradient(77.36% 256.97% at 77.36% 57.52%, #efe1af 0%, #c3dcfa 100%)"
             >
                 <div class="flex flex-col justify-center items-center text-center px-4 py-4 md:py-0">
-                    <div class="text-gray-900 mb-2 text-3xl font-semibold">Tim Berners-Lee</div>
-                    <span class="text-gray-600 text-2xl">born 8 June 1955</span>
+                    <div class="text-gray-900 mb-2 text-3xl font-semibold">주식회사 에이치쓰리연구소(H3LAB)은 2024년에 설립하여 웹전문가들로 구성된 기업입니다.</div>
+                    <span class="text-gray-600 text-2xl">웹 기술에 희망, 높은 품질의 기술력, 조화로운 소통</span>
                     <p class="text-gray-900 sm:line-height-2 md:line-height-4 text-2xl mt-6" style="max-width: 800px">
-                        He also known as TimBL, is an English computer scientist best known as the inventor of the World Wide Web, the HTML markup language, the URL system, and HTTP. He is a professorial research fellow at the University of Oxford[2]
-                        and a professor emeritus at the Massachusetts Institute of Technology (MIT).
+                        급변하는 IT 시장에 안정적인 서비스를 제공할 수 있도록 신기술을 연구하고 있으며 해당 분야에 키맨들이 될 수 있게 임직원 모두 노력하고 있습니다. 고객 업무 환경에 맞춤형 서비스를 제공하고 만족도를 높이기 위하여 꾸준히 노력하는
+                        IT전문 기업으로 끊임 없이 발전해 나아가겠습니다.
                     </p>
                     <!-- <img src="/demo/images/landing/peak-logo.svg" class="mt-6" alt="Company logo" /> -->
                 </div>

@@ -1,5 +1,6 @@
 <script setup>
 // import { ref } from 'vue';
+// import { supabase } from '../../supabase/supabaseClient';
 const ports = [
     {
         seq: 5,
@@ -53,6 +54,15 @@ const baseUrl = '/demo/images/landing/';
 const productImage = (img) => {
     return '/demo/images/landing/' + img;
 };
+
+// const ports = ref([]);
+// const getPortfolios = async () => {
+//     const { data } = await supabase.from('portfolio').select();
+//     ports.value = data;
+// };
+// onMounted(() => {
+//     getPortfolios();
+// });
 </script>
 <template>
     <div id="pricing" class="py-6 px-6 lg:px-20 my-2 md:my-6">
