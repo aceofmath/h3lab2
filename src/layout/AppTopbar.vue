@@ -3,6 +3,14 @@ import { useLayout } from '@/layout/composables/layout';
 import AppConfigurator from './AppConfigurator.vue';
 
 const { toggleMenu, toggleDarkMode, isDarkTheme } = useLayout();
+
+// Background color cycler
+const bgColors = ['#ffffff', '#f8fafc', '#f1f5f9', '#eef2ff', '#fff7ed', '#fef2f2'];
+let bgIndex = 0;
+function cycleBackground() {
+    bgIndex = (bgIndex + 1) % bgColors.length;
+    document.body.style.backgroundColor = bgColors[bgIndex];
+}
 </script>
 
 <template>
@@ -35,6 +43,9 @@ const { toggleMenu, toggleDarkMode, isDarkTheme } = useLayout();
         </div>
 
         <div class="layout-topbar-actions">
+            <button type="button" class="layout-topbar-action" @click="cycleBackground" title="Change Background">
+                <i class="pi pi-palette"></i>
+            </button>
             <div class="layout-config-menu">
                 <button type="button" class="layout-topbar-action" @click="toggleDarkMode">
                     <i :class="['pi', { 'pi-moon': isDarkTheme, 'pi-sun': !isDarkTheme }]"></i>

@@ -6,14 +6,14 @@ const router = createRouter({
     routes: [
         {
             path: '/',
+            name: 'landingRoot',
+            component: () => import('@/views/pages/Landing.vue')
+        },
+        {
+            path: '/',
             component: AppLayout,
             children: [
-                {
-                    path: '/',
-                    name: 'dashboard',
-                    redirect: '/landing'
-                    // component: () => import('@/views/Dashboard.vue')
-                },
+                // root path now directly renders landing via top-level route
                 {
                     path: '/uikit/formlayout',
                     name: 'formlayout',

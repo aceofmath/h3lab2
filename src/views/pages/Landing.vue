@@ -10,9 +10,10 @@ import TopbarWidget from '@/components/landing/TopbarWidget.vue';
 <template>
     <div class="bg-surface-0 dark:bg-surface-900">
         <div id="home" class="landing-wrapper overflow-hidden">
-            <div class="py-6 px-6 mx-0 md:mx-12 lg:mx-20 lg:px-20 flex items-center justify-between relative lg:static">
+            <div class="py-6 px-6 flex items-center justify-between fixed top-0 left-0 right-0 z-50 bg-black text-white w-full">
                 <TopbarWidget />
             </div>
+            <div class="h-24"></div>
             <HeroWidget />
             <FeaturesWidget />
             <PricingWidget />

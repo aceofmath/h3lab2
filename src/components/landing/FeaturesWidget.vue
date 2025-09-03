@@ -7,37 +7,49 @@
             </div>
 
             <div class="col-span-12 md:col-span-12 lg:col-span-4 p-0 lg:pr-8 lg:pb-8 mt-6 lg:mt-0">
-                <div style="height: 160px; padding: 2px; border-radius: 10px; background: linear-gradient(90deg, rgba(253, 228, 165, 0.2), rgba(187, 199, 205, 0.2)), linear-gradient(180deg, rgba(253, 228, 165, 0.2), rgba(187, 199, 205, 0.2))">
+                <div style="padding: 2px; border-radius: 10px; background: linear-gradient(90deg, rgba(253, 228, 165, 0.2), rgba(187, 199, 205, 0.2)), linear-gradient(180deg, rgba(253, 228, 165, 0.2), rgba(187, 199, 205, 0.2))">
                     <div class="p-4 bg-surface-0 dark:bg-surface-900 h-full" style="border-radius: 8px">
-                        <div class="flex items-center justify-center bg-yellow-200 mb-4" style="width: 3.5rem; height: 3.5rem; border-radius: 10px">
-                            <i class="pi pi-fw pi-microsoft !text-2xl text-yellow-700"></i>
+                        <div class="flex items-center justify-between gap-4 w-full">
+                            <div class="flex items-center justify-center bg-yellow-200" style="width: 3.5rem; height: 3.5rem; border-radius: 10px">
+                                <i class="pi pi-fw pi-microsoft !text-2xl text-yellow-700"></i>
+                            </div>
+                            <div class="text-right">
+                                <h5 class="mb-2 text-surface-900 dark:text-surface-0">업태 / 업종</h5>
+                                <span class="text-surface-600 dark:text-surface-200">정보통신업 / 응용 소프트웨어 개발</span>
+                            </div>
                         </div>
-                        <h5 class="mb-2 text-surface-900 dark:text-surface-0">업태 / 업종</h5>
-                        <span class="text-surface-600 dark:text-surface-200">정보통신업 / 응용 소프트웨어 개발</span>
                     </div>
                 </div>
             </div>
 
             <div class="col-span-12 md:col-span-12 lg:col-span-4 p-0 lg:pr-8 lg:pb-8 mt-6 lg:mt-0">
-                <div style="height: 160px; padding: 2px; border-radius: 10px; background: linear-gradient(90deg, rgba(145, 226, 237, 0.2), rgba(251, 199, 145, 0.2)), linear-gradient(180deg, rgba(253, 228, 165, 0.2), rgba(172, 180, 223, 0.2))">
+                <div style="padding: 2px; border-radius: 10px; background: linear-gradient(90deg, rgba(145, 226, 237, 0.2), rgba(251, 199, 145, 0.2)), linear-gradient(180deg, rgba(253, 228, 165, 0.2), rgba(172, 180, 223, 0.2))">
                     <div class="p-4 bg-surface-0 dark:bg-surface-900 h-full" style="border-radius: 8px">
-                        <div class="flex items-center justify-center bg-cyan-200 mb-4" style="width: 3.5rem; height: 3.5rem; border-radius: 10px">
-                            <i class="pi pi-fw pi-building !text-2xl text-cyan-700"></i>
+                        <div class="flex items-center justify-between gap-4 w-full">
+                            <div class="flex items-center justify-center bg-cyan-200" style="width: 3.5rem; height: 3.5rem; border-radius: 10px">
+                                <i class="pi pi-fw pi-building !text-2xl text-cyan-700"></i>
+                            </div>
+                            <div class="text-right">
+                                <h5 class="mb-2 text-surface-900 dark:text-surface-0">설립일</h5>
+                                <span class="text-surface-600 dark:text-surface-200">2024-09-02</span>
+                            </div>
                         </div>
-                        <h5 class="mb-2 text-surface-900 dark:text-surface-0">설립일</h5>
-                        <span class="text-surface-600 dark:text-surface-200">2024-09-02</span>
                     </div>
                 </div>
             </div>
 
             <div class="col-span-12 md:col-span-12 lg:col-span-4 p-0 lg:pb-8 mt-6 lg:mt-0">
-                <div style="height: 160px; padding: 2px; border-radius: 10px; background: linear-gradient(90deg, rgba(145, 226, 237, 0.2), rgba(172, 180, 223, 0.2)), linear-gradient(180deg, rgba(172, 180, 223, 0.2), rgba(246, 158, 188, 0.2))">
+                <div style="padding: 2px; border-radius: 10px; background: linear-gradient(90deg, rgba(145, 226, 237, 0.2), rgba(172, 180, 223, 0.2)), linear-gradient(180deg, rgba(172, 180, 223, 0.2), rgba(246, 158, 188, 0.2))">
                     <div class="p-4 bg-surface-0 dark:bg-surface-900 h-full" style="border-radius: 8px">
-                        <div class="flex items-center justify-center bg-indigo-200" style="width: 3.5rem; height: 3.5rem; border-radius: 10px">
-                            <i class="pi pi-fw pi-users !text-2xl text-indigo-700"></i>
+                        <div class="flex items-center justify-between gap-4 w-full">
+                            <div class="flex items-center justify-center bg-indigo-200" style="width: 3.5rem; height: 3.5rem; border-radius: 10px">
+                                <i class="pi pi-fw pi-users !text-2xl text-indigo-700"></i>
+                            </div>
+                            <div class="text-right">
+                                <div class="mb-1 text-surface-900 dark:text-surface-0 text-xl font-semibold">임직원수</div>
+                                <span class="text-surface-600 dark:text-surface-200">4명</span>
+                            </div>
                         </div>
-                        <div class="mt-6 mb-1 text-surface-900 dark:text-surface-0 text-xl font-semibold">임직원수</div>
-                        <span class="text-surface-600 dark:text-surface-200">4명</span>
                     </div>
                 </div>
             </div>
