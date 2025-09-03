@@ -24,11 +24,7 @@
                     <i class="pi pi-fw pi-mobile !text-4xl text-purple-700"></i>
                 </div>
                 <div class="leading-none text-surface-900 dark:text-surface-0 text-3xl font-normal">(주)에이치쓰리연구소</div>
-                <span class="text-surface-700 dark:text-surface-100 text-2xl leading-normal ml-0 md:ml-2" style="max-width: 650px">
-                    (우)06234 서울시 강남구 테헤란로 8길 11-8, 5F
-                    <br />
-                    지하철 2호선 1번 출구에서 도보 5분</span
-                >
+                <span class="text-surface-700 dark:text-surface-100 text-2xl leading-normal ml-0 md:ml-2" style="max-width: 650px"> 경기도 화성시 동탄첨단산업1로 27 동탄 금강펜테리움IX타워 B동 1420호 </span>
             </div>
         </div>
 
