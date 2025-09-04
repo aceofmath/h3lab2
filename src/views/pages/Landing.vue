@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import FeaturesWidget from '@/components/landing/FeaturesWidget.vue';
+import ContactWidget from '@/components/landing/ContactWidget.vue';
 import FooterWidget from '@/components/landing/FooterWidget.vue';
-import HeroWidget from '@/components/landing/HeroWidget.vue';
-import HighlightsWidget from '@/components/landing/HighlightsWidget.vue';
-import PricingWidget from '@/components/landing/PricingWidget.vue';
+import MainWidget from '@/components/landing/MainWidget.vue';
+import PortfolioWidget from '@/components/landing/PortfolioWidget.vue';
+import ServiceWidget from '@/components/landing/ServiceWidget.vue';
 import TopbarWidget from '@/components/landing/TopbarWidget.vue';
 </script>
 
@@ -14,10 +14,10 @@ import TopbarWidget from '@/components/landing/TopbarWidget.vue';
                 <TopbarWidget />
             </div>
             <div class="h-24"></div>
-            <HeroWidget />
-            <FeaturesWidget />
-            <PricingWidget />
-            <HighlightsWidget />
+            <MainWidget />
+            <ServiceWidget />
+            <PortfolioWidget />
+            <ContactWidget />
             <FooterWidget />
         </div>
     </div>
