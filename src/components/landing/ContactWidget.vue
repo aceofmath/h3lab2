@@ -9,7 +9,7 @@
             <div class="flex justify-center col-span-12 lg:col-span-8 bg-purple-100 p-0 order-1 lg:order-none" style="border-radius: 8px">
                 <!-- <img src="/demo/images/landing/mockup.svg" class="w-11/12" alt="mockup mobile" /> -->
                 <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3165.4151768031707!2d127.02961537640346!3d37.4981249280471!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca156feedbb99%3A0x42b5932b9a140068!2z7ISc7Jq47Yq567OE7IucIOqwleuCqOq1rCDthYztl6TrnoDroZw46ri4IDExLTg!5e0!3m2!1sko!2skr!4v1725752615530!5m2!1sko!2skr"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3177.5166876289823!2d127.08711707663738!3d37.211707544393775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357b458e86e578e9%3A0x7fa8408b6fded647!2z64-Z7YOEIOq4iOqwle2OnO2FjOumrOybgCBJWO2DgOybjCBC64-Z!5e0!3m2!1sko!2skr!4v1756953177268!5m2!1sko!2skr"
                     width="100%"
                     height="450"
                     style="border: 0"
